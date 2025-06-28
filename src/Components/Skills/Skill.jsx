@@ -10,7 +10,7 @@ import {
   FaFire,
  
 } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiVite, SiFramer } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiVite, SiFramer, SiExpress } from 'react-icons/si';
  const skills = [
   { name: 'HTML', icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
   { name: 'CSS', icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
@@ -23,11 +23,12 @@ import { SiTailwindcss, SiMongodb, SiVite, SiFramer } from 'react-icons/si';
   { name: 'Firebase', icon: <FaFire className="text-orange-500 text-4xl" /> },
   { name: 'Node.js', icon: <FaNode className="text-green-600 text-4xl" /> },
   { name: 'MongoDB', icon: <SiMongodb className="text-green-500 text-4xl" /> },
-];
+  { name: 'Express Js', icon: <SiExpress   className="text-green-500 text-4xl" /> },
+]; 
 const Skill = () => {
     return (
             <div className=" py-2">
-                <h2 className='text-3xl font-bold text-center  p-3'>My Skills </h2>
+                <h2 className='text-3xl font-bold text-center  p-3'>Skills & Tools </h2>
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {skills.map((skill, index) => (
           <motion.div
