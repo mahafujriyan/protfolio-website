@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion'; 
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEye, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { Typewriter } from 'react-simple-typewriter';
 import { Link } from 'react-router';
+import { IoMdDownload } from 'react-icons/io';
 const Banner = () => {
     const hoverAnimation = {
     whileHover: { scale: 1.02 },
@@ -88,8 +89,23 @@ const Banner = () => {
           <h2 className='text-center text-2xl font-semibold py-2
           '>Download Resume</h2>
          <div className='flex justify-center gap-4'>
-           <button className="btn btn-outline">Download</button>
-          <button className="btn btn-primary">Resume</button>
+         
+           <a
+           href='https://drive.google.com/uc?export=dowmload&id=1I-wC8LQV3Xk7UIsqK8RSdKSA4EQVW-f2'
+           download
+           target='_blank'
+           rel='noopener noreferrer'
+
+            className="btn btn-outline flex items-center gap-1"><IoMdDownload /> Download</a>
+             <a
+            href="https://drive.google.com/file/d/1I-wC8LQV3Xk7UIsqK8RSdKSA4EQVW-f2/view"
+            className="btn btn-primary flex items-center gap-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume <FaEye />
+          </a>
+        
          </div>
         </motion.div>
       </div>

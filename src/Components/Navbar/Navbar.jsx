@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
 import ScrollSmooth from '../../Animation/ScrollSmooth';
+import { FaEye } from 'react-icons/fa';
+import { IoMdDownload } from 'react-icons/io';
 
 
 const Navbar = () => {
@@ -35,7 +37,14 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Resume</a>
+         <a
+                   href='https://drive.google.com/uc?export=dowmload&id=1I-wC8LQV3Xk7UIsqK8RSdKSA4EQVW-f2'
+                   download
+                   target='_blank'
+                   rel='noopener noreferrer'
+        
+                    className="rounded-2xl btn btn-primary btn-outline flex items-center gap-1"> Resume <IoMdDownload /></a>
+       
       </div>
     </div>
     );

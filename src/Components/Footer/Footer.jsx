@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa6';
 import { Link } from 'react-router';
 
@@ -15,9 +15,12 @@ const Footer = () => {
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">
-      <Link> <FaFacebook></FaFacebook> </Link>
-      <Link><FaLinkedinIn></FaLinkedinIn></Link>
-      <Link><FaTwitter></FaTwitter></Link>
+      <Link to='https://www.facebook.com/share/19X5uHhg7K/'> <FaFacebook></FaFacebook> </Link>
+      <Link to='https://www.linkedin.com/in/md-mahafuj-hossain-4ba36220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedinIn></FaLinkedinIn></Link>
+      <Link to='https://x.com/Mhriyan87'><FaTwitter></FaTwitter></Link>
+      <Link to='https://github.com/mahafujriyan'>
+                  <FaGithub className="hover:text-gray-800 cursor-pointer" />
+                 </Link>
    
     </div>
   </nav>
