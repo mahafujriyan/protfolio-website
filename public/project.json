@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "E-commerce",
+    "image": "/assets/Screenshot (121).png",
+    "images": ["/assets/Screenshot (121).png",
+    "/assets/Screenshot (122).png",
+    "/assets/Screenshot (123).png",
+     "/assets/Screenshot (134).png"],
+    "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
+    "description": "An user  friendly  E-commerce website for buyers, sellers with top related discount",
+    "liveLink": "https://fastidious-donut-1152a1.netlify.app/",
+    "github": "https://github.com/mahafujriyan/birmmart-client",
+    "challenges": "Implementing responsive design and animations.",
+    "futurePlans": "Add some animation and  add sorted by acceding and decending order ."
+  },
+  {
+    "id": "2",
+    "name": "Food recipe",
+    "image": "/assets/Screenshot (125).png",
+    "images": ["/assets/Screenshot (126).png",
+    "/assets/Screenshot (127).png",
+     "/assets/Screenshot (138).png"],
+    "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
+    "description": "Who don't cook till now . He also cooke by seeing the recipe . And anyone who discover the new recipe . He can also share his recipe",
+    "liveLink": "https://stunning-ganache-d64874.netlify.app/",
+    "github": "https://github.com/mahafujriyan/recipe-book-client",
+    "challenges": "The like was stored by string . So I declare another file . Then the like converted  into  number ",
+    "futurePlans": "Use more user friendly animation and more informative. And want to take option where the user can add their recipe video "
+  },
+  {
+    "id": "3",
+    "name": "Appoint Lawyer",
+    "image": "/assets/Screenshot (129).png",
+    "images": ["/assets/Screenshot (129).png",
+    "/assets/Screenshot (132).png",
+    "/assets/Screenshot (131).png"
+     ],
+    "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
+    "description": "Make the users happy . Cause it safe the user's time ",
+    "liveLink": "https://lovely-cassata-36ea66.netlify.app",
+    "github": "https://github.com/mahafujriyan/booking-lawyer",
+    "challenges": "Counting animation and when I appoint the lawyer the graph isn't show perfectly  ",
+    "futurePlans": "Make the projects theme toggle and more responsive ."
+  }
+]

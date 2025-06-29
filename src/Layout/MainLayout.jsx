@@ -11,9 +11,6 @@ const MainLayout = () => {
             <Navbar></Navbar>
             <Home></Home>
     
-           <main className="flex-grow">
-                <Outlet /> 
-            </main>
             <Footer></Footer>
         </div>
     );

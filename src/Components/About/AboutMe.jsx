@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const AboutMe = () => {
     return (
-        <div className="py-10 px-4 bg-[#f9f9fb] flex justify-center">
+      
+          <div className="py-10 px-4 bg-[#f9f9fb] flex justify-center">
       
       {/* Scroll Animation Wrapper */}
       <motion.div
@@ -16,7 +17,7 @@ const AboutMe = () => {
         {/* Image Section */}
         <figure className="w-full lg:w-1/3 p-4 flex justify-center items-center">
           <img
-            src="/assets/profile.jpg"
+            src="/assets/Untitled.png"
             alt="Mahafuj"
             className="rounded-lg object-cover w-full max-w-xs"
           />
@@ -48,6 +49,7 @@ const AboutMe = () => {
         </div>
       </motion.div>
     </div>
+      
     );
 };
 

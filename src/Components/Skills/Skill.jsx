@@ -27,7 +27,8 @@ import { SiTailwindcss, SiMongodb, SiVite, SiFramer, SiExpress } from 'react-ico
 ]; 
 const Skill = () => {
     return (
-            <div className=" py-2">
+         
+              <div className=" py-2">
                 <h2 className='text-3xl font-bold text-center  p-3'>Skills & Tools </h2>
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {skills.map((skill, index) => (
@@ -48,6 +49,7 @@ const Skill = () => {
         ))}
       </div>
     </div>
+         
     );
 };
 

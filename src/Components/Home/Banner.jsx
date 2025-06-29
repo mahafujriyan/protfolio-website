@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { Typewriter } from 'react-simple-typewriter';
+import { Link } from 'react-router';
 const Banner = () => {
     const hoverAnimation = {
     whileHover: { scale: 1.02 },
@@ -11,8 +12,17 @@ const Banner = () => {
     return (
       <div className=" space-y-4  p-4 grid gap-6 lg:grid-cols-3 items-start">
       
+      {/* Right Column: Profile Image Card */}
+      <motion.div   {...hoverAnimation}
+       className="order-1 lg:order-2  bg-white shadow-lg rounded-xl p-4 flex justify-center items-center">
+        <img
+          src="/assets/m-1.png"
+          alt="Profile"
+          className="rounded-xl object-cover w-full max-w-xs"
+        />
+      </motion.div>
      
-      <div className="space-y-4 lg:col-span-2">
+      <div className="order-2 lg:order-1 lg:col-span-2 space-y-6 ">
         
         {/* Profile Info Card */}
         <motion.div
@@ -24,7 +34,7 @@ const Banner = () => {
         >
           <div className="flex items-center gap-4 mb-4">
             <img
-              src="/assets/profile.jpg"
+              src="/assets/m-1.png"
               alt="Mahafuj"
               className="w-16 h-16 rounded-full border-2 border-primary"
             />
@@ -56,10 +66,17 @@ const Banner = () => {
           </p>
 
           <div className="flex gap-4 text-xl text-gray-600">
-            <FaFacebook className="hover:text-blue-600 cursor-pointer" />
+            
+           <Link to='https://x.com/Mhriyan87' >
             <FaXTwitter className="hover:text-black cursor-pointer" />
+          </Link>
+           <Link to='https://www.linkedin.com/in/md-mahafuj-hossain-4ba36220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
             <FaLinkedin className="hover:text-blue-500 cursor-pointer" />
+           </Link>
+           <Link to='https://github.com/mahafujriyan'>
             <FaGithub className="hover:text-gray-800 cursor-pointer" />
+           </Link>
+
           </div>
         </motion.div>
 
@@ -77,15 +94,6 @@ const Banner = () => {
         </motion.div>
       </div>
 
-      {/* Right Column: Profile Image Card */}
-      <motion.div   {...hoverAnimation}
-       className="bg-white shadow-lg rounded-xl p-4 flex justify-center items-center">
-        <img
-          src="/assets/profile.jpg"
-          alt="Profile"
-          className="rounded-xl object-cover w-full max-w-xs"
-        />
-      </motion.div>
     </div>
     );
 };

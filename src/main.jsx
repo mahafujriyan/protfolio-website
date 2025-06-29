@@ -11,11 +11,7 @@ import MainLayout from './Layout/MainLayout.jsx';
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    children:[
-      {
-        
-      }
-    ]
+   
   },
 ]);
 createRoot(document.getElementById('root')).render(
