@@ -71,7 +71,7 @@ const Banner = () => {
            <Link to='https://x.com/Mhriyan87' >
             <FaXTwitter className="hover:text-black cursor-pointer" />
           </Link>
-           <Link to='https://www.linkedin.com/in/md-mahafuj-hossain-4ba36220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
+           <Link to='https://www.linkedin.com/in/mahafujriyan87'>
             <FaLinkedin className="hover:text-blue-500 cursor-pointer" />
            </Link>
            <Link to='https://github.com/mahafujriyan'>
@@ -89,16 +89,16 @@ const Banner = () => {
           <h2 className='text-center text-2xl font-semibold py-2
           '>Download Resume</h2>
          <div className='flex justify-center gap-4'>
-         
+       
            <a
-           href='https://drive.google.com/uc?export=dowmload&id=1I-wC8LQV3Xk7UIsqK8RSdKSA4EQVW-f2'
+           href='https://drive.google.com/uc?export=dowmload&id=1L4Oetw1JFxzvz_VWdxxyat8N766Z2CsX'
            download
            target='_blank'
            rel='noopener noreferrer'
 
             className="btn btn-outline flex items-center gap-1"><IoMdDownload /> Download</a>
              <a
-            href="https://drive.google.com/file/d/1I-wC8LQV3Xk7UIsqK8RSdKSA4EQVW-f2/view"
+            href="https://drive.google.com/file/d/1L4Oetw1JFxzvz_VWdxxyat8N766Z2CsX/view"
             className="btn btn-primary flex items-center gap-1"
             target="_blank"
             rel="noopener noreferrer"
