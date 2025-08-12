@@ -8,10 +8,10 @@
     "/assets/Screenshot (123).png",
      "/assets/Screenshot (134).png"],
     "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
-    "description": "An user  friendly  E-commerce website for buyers, sellers with top related discount",
+    "description": "An e-commerce platform built to deliver a seamless online shopping experience with dynamic product handling and secure checkout.n",
     "liveLink": "https://fastidious-donut-1152a1.netlify.app/",
     "github": "https://github.com/mahafujriyan/birmmart-client",
-    "challenges": "Implementing responsive design and animations.",
+    "challenges": " Faced and resolved challenges in cart state management, API integration, and deployment through focused debugging and optimization",
     "futurePlans": "Add some animation and  add sorted by acceding and decending order ."
   },
   {
@@ -22,10 +22,10 @@
     "/assets/Screenshot (127).png",
      "/assets/Screenshot (138).png"],
     "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
-    "description": "Who don't cook till now . He also cooke by seeing the recipe . And anyone who discover the new recipe . He can also share his recipe",
+    "description": "A recipe-sharing platform where users can browse, post, and manage detailed recipes with a clean and intuitive interface.",
     "liveLink": "https://stunning-ganache-d64874.netlify.app/",
     "github": "https://github.com/mahafujriyan/recipe-book-client",
-    "challenges": "The like was stored by string . So I declare another file . Then the like converted  into  number ",
+    "challenges": "Faced challenges with form validation, dynamic rendering, and Firebase integration — resolved through practice and debugging. ",
     "futurePlans": "Use more user friendly animation and more informative. And want to take option where the user can add their recipe video "
   },
   {
@@ -37,10 +37,10 @@
     "/assets/Screenshot (131).png"
      ],
     "techStack": ["React", "Tailwind", "DaisyUI","MongoDb"],
-    "description": "Make the users happy . Cause it safe the user's time ",
+    "description": "A legal services platform where users can view lawyer availability, compare fees, and schedule or cancel appointments.  ",
     "liveLink": "https://lovely-cassata-36ea66.netlify.app",
     "github": "https://github.com/mahafujriyan/booking-lawyer",
-    "challenges": "Counting animation and when I appoint the lawyer the graph isn't show perfectly  ",
+    "challenges": " Faced challenges with chart visualizations, calendar-based booking, and state handling — resolved with practice and debugging ",
     "futurePlans": "Make the projects theme toggle and more responsive ."
   }
 ]
