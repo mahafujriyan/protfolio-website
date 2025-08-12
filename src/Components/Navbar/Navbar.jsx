@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
          <a
-                   href='https://drive.google.com/uc?export=dowmload&id=1L4Oetw1JFxzvz_VWdxxyat8N766Z2CsX'
+                   href='https://drive.google.com/uc?export=dowmload&id=1Bwfrk_cU9CF0ct4QmLf3D4LHJnQ3-l4q'
                    download
                    target='_blank'
                    rel='noopener noreferrer'

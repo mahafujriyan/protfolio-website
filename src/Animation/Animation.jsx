@@ -17,7 +17,7 @@ const Animation = ({images}) => {
         disableOnInteraction: false,
         pauseOnMouseEnter: true, 
       }}
-      className="w-full h-64 rounded-xl shadow"
+      className="w-full h-[400px] rounded-xl shadow"
     >
       {images.map((img, index) => (
         <SwiperSlide key={index}>

@@ -89,16 +89,16 @@ const Banner = () => {
           <h2 className='text-center text-2xl font-semibold py-2
           '>Download Resume</h2>
          <div className='flex justify-center gap-4'>
-       
+      
            <a
-           href='https://drive.google.com/uc?export=dowmload&id=1L4Oetw1JFxzvz_VWdxxyat8N766Z2CsX'
+           href='https://drive.google.com/uc?export=dowmload&id=1Bwfrk_cU9CF0ct4QmLf3D4LHJnQ3-l4q'
            download
            target='_blank'
            rel='noopener noreferrer'
 
             className="btn btn-outline flex items-center gap-1"><IoMdDownload /> Download</a>
              <a
-            href="https://drive.google.com/file/d/1L4Oetw1JFxzvz_VWdxxyat8N766Z2CsX/view"
+            href="https://drive.google.com/file/d/1Bwfrk_cU9CF0ct4QmLf3D4LHJnQ3-l4q/view"
             className="btn btn-primary flex items-center gap-1"
             target="_blank"
             rel="noopener noreferrer"

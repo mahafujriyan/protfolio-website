@@ -7,12 +7,17 @@ import {
   RouterProvider,
 } from "react-router";
 import MainLayout from './Layout/MainLayout.jsx';
+import ProjectsDetails from './Components/Projects/ProjectsDetails.jsx';
  const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
    
   },
+   {
+        path: 'projects/:id',
+        element: <ProjectsDetails />, 
+      },
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
